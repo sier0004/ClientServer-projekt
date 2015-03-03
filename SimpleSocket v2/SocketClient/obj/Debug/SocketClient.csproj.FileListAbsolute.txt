@@ -1,0 +1,27 @@
+c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SocketClient\bin\Debug\SocketClient.exe.config
+c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SocketClient\bin\Debug\SocketClient.exe
+c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SocketClient\bin\Debug\SocketClient.pdb
+c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SocketClient\obj\Debug\SocketClient.exe
+c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\Opgaver\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Shiro\Desktop\Opgaver\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\Opgaver\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\Opgaver\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\Opgaver\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\Opgaver\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\Ny mappe\Visual Studio 2013\Projects\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\Ny mappe\Visual Studio 2013\Projects\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\Ny mappe\Visual Studio 2013\Projects\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\Ny mappe\Visual Studio 2013\Projects\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Shiro\Desktop\Ny mappe\Visual Studio 2013\Projects\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\Ny mappe\Visual Studio 2013\Projects\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Shiro\Desktop\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.pdb
