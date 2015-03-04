@@ -27,10 +27,10 @@ namespace SocketServer
             writer = new StreamWriter(netStream);
         }
 
-        public void RunClient()
+        public void RunServer()
         {
             GetID();
-            StartupLogic();
+            Run();
         }
 
         private void GetID()
@@ -58,20 +58,22 @@ namespace SocketServer
             return clientID;
         }
 
-        public void StartupLogic()
+        public void Run()
         {
             while (!_stop)
             {
                 string clientCommand = reader.ReadLine();
                 Console.WriteLine(clientCommand);
-                switch (clientCommand)
+                string[] splitCommand = clientCommand.Split(' ');
+                switch (splitCommand[1])
                 {
                     case "number":
                         writer.WriteLine("Write a number.");
                         writer.Flush();
                         string userInput = reader.ReadLine();
+                        string[] splitInput = userInput.Split(' ');
                         int numberInput;
-                        bool checkNumber = int.TryParse(userInput, out numberInput);
+                        bool checkNumber = int.TryParse(splitInput[1], out numberInput);
                         if (checkNumber == true)
                         {
                             writer.WriteLine("You wrote " + numberInput + ".");
@@ -86,8 +88,9 @@ namespace SocketServer
                     case "split":
                         writer.WriteLine("Write a string.");
                         writer.Flush();
-                        string splitUserInput = reader.ReadLine();
-                        char[] charInput = splitUserInput.ToCharArray();
+                        string input = reader.ReadLine();
+                        string[] splitUserInput = input.Split(' ');
+                        char[] charInput = splitUserInput[1].ToCharArray();
                         foreach (char chars in charInput)
                         {
                             writer.WriteLine(chars);
@@ -98,16 +101,17 @@ namespace SocketServer
                         writer.WriteLine("Input numbers.");
                         writer.Flush();
                         string clientInput = reader.ReadLine();
-                        char[] splitInput = clientInput.ToCharArray();
-                        if (splitInput.Length == 3)
+                        string[] splitClientInput = clientInput.Split(' ');
+                        char[] splitAddInput = splitClientInput[1].ToCharArray();
+                        if (splitAddInput.Length == 3)
                         {
                             int num1;
                             int num2;
-                            bool num1Check = int.TryParse(splitInput[0].ToString(), out num1);
-                            bool num2Check = int.TryParse(splitInput[2].ToString(), out num2);
+                            bool num1Check = int.TryParse(splitAddInput[0].ToString(), out num1);
+                            bool num2Check = int.TryParse(splitAddInput[2].ToString(), out num2);
                             if (num1Check && num2Check == true)
                             {
-                                if (splitInput[1].ToString() == "+")
+                                if (splitAddInput[1].ToString() == "+")
                                 {
                                     int sumResult = num1 + num2;
                                     writer.WriteLine(sumResult.ToString());
@@ -157,24 +161,19 @@ namespace SocketServer
                         break;
                 }
 
-                //try
-                //{
-                //    writer.Flush();
-                //}
-                //catch (Exception)
-                //{
-                //    Console.WriteLine("Connection closed.");
-                //}
+                try
+                {
+                    writer.Flush();
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Connection closed.");
+                }
             }
 
-            //string theReader = reader.ReadLine();
-            //string line = "" + theReader;
-            //string returned = "test";
-            //writer.WriteLine(returned);
-            //writer.Flush();
-            //Console.WriteLine(line);
         }
 
+        //Udvidelse til broadcast
         private void messageToClients(string message)
         {
             writer.WriteLine(message);

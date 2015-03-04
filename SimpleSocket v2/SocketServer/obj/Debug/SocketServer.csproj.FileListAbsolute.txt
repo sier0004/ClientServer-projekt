@@ -27,3 +27,9 @@ C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketServer\obj\Debug\Sock
 C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.pdb
 C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe
 C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.pdb
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache

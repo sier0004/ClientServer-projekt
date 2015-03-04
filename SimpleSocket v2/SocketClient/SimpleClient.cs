@@ -12,6 +12,8 @@ namespace SocketClient
 {
     class SimpleClient
     {
+        private string _clientID;
+
         private string _hostName;
         private int _port;
 
@@ -33,39 +35,27 @@ namespace SocketClient
 
             try
             {
-
-                server = new TcpClient(_hostName, _port);
-
-                stream = server.GetStream();
-                reader = new StreamReader(stream);
-                writer = new StreamWriter(stream);
-                writer.AutoFlush = true;
-
-               
+                StartConnection();
 
                 //Thread listener = new Thread(listenToServer);
                 //listener.Start();
 
-                string serverData = reader.ReadLine();
-                Console.WriteLine("Server: " + serverData);
+                GetID();
 
+                //string serverData = reader.ReadLine();
+                //Console.WriteLine("Server: " + serverData);
+                 
                 while (true)
                 {
-                    string command = Console.ReadLine();
-                    Console.WriteLine(command);
-                    writer.WriteLine(command);
+                    string input = Console.ReadLine();
+                    writer.WriteLine(_clientID + ": " + input);
 
                     string commandResponse = reader.ReadLine();
                     Console.WriteLine(commandResponse);
 
-                    if (command == "exit")
+                    if (input == "exit")
                     {
-                        Console.WriteLine("Closing connection...");
-                        writer.Close();
-                        reader.Close();
-                        stream.Close();
-                        server.Close();
-                        Console.WriteLine("Connection closed.");
+                        CloseConnection();
                     }
                 }
             }
@@ -75,7 +65,34 @@ namespace SocketClient
                 Console.WriteLine("No connection to server.");
                 Console.ReadLine();
             }
+        }
 
+        public void CloseConnection()
+        {
+            Console.WriteLine("Closing connection...");
+            writer.Close();
+            reader.Close();
+            stream.Close();
+            server.Close();
+            Console.WriteLine("Connection closed.");
+            return;
+        }
+
+        public void GetID()
+        {
+            string receivedID = reader.ReadLine();
+            _clientID = receivedID;
+            Console.WriteLine("Client ID is: " + _clientID);
+        }
+
+        public void StartConnection()
+        {
+            server = new TcpClient(_hostName, _port);
+
+            stream = server.GetStream();
+            reader = new StreamReader(stream);
+            writer = new StreamWriter(stream);
+            writer.AutoFlush = true;
         }
 
         //private void listenToServer()

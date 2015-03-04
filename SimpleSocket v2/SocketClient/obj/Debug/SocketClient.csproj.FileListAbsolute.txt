@@ -25,3 +25,9 @@ C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\obj\Debug\Sock
 C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
 C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe
 C:\Users\Shiro\Desktop\CommandServer\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.pdb
