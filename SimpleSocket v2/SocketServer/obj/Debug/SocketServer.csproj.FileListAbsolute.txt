@@ -33,3 +33,15 @@ C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServe
 C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe
 C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.pdb
 C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\ClientServer-projekt-echo\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\Shiro\Desktop\ClientServer-projekt-echo\ClientServer-projekt-master\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\Shiro\Desktop\ClientServer-projekt-echo\ClientServer-projekt-master\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.pdb
+C:\Users\Shiro\Desktop\ClientServer-projekt-echo\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\Shiro\Desktop\ClientServer-projekt-echo\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\Shiro\Desktop\ClientServer-projekt-echo\ClientServer-projekt-master\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.pdb
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache

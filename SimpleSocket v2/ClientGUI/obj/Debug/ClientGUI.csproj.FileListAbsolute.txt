@@ -1,0 +1,35 @@
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\bin\Debug\ChatKlient.exe
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\bin\Debug\ChatKlient.pdb
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\obj\Debug\ChatKlient.Form1.resources
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\obj\Debug\ChatKlient.Properties.Resources.resources
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\obj\Debug\ChatKlient.csproj.GenerateResource.Cache
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\obj\Debug\ChatKlient.exe
+C:\Users\Bjarne\Documents\Visual Studio 2008\Projects\ChatKlient\ChatKlient\obj\Debug\ChatKlient.pdb
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\bin\Debug\ChatKlient.exe.config
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\obj\Debug\ChatKlient.exe
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\obj\Debug\ChatKlient.pdb
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\bin\Debug\ChatKlient.exe
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\bin\Debug\ChatKlient.pdb
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\obj\Debug\ChatKlient.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\obj\Debug\ChatKlient.Form1.resources
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\obj\Debug\ChatKlient.Properties.Resources.resources
+C:\Users\Shiro\Desktop\Ny mappe\DMO1401-3.semINT\SDP\Program Examples\ChatKlient\ChatKlient\ChatKlient\obj\Debug\ChatKlient.csproj.GenerateResource.Cache
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.Form1.resources
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.Properties.Resources.resources
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.csproj.GenerateResource.Cache
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\bin\Debug\ChatKlient.exe.config
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\bin\Debug\ChatKlient.exe
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\bin\Debug\ChatKlient.pdb
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.exe
+C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.pdb
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\bin\Debug\ChatKlient.exe.config
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\bin\Debug\ChatKlient.exe
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\bin\Debug\ChatKlient.pdb
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.Form1.resources
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.Properties.Resources.resources
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.csproj.GenerateResource.Cache
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.exe
+C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.pdb

@@ -23,10 +23,30 @@ namespace SocketClient
         StreamReader reader;
         StreamWriter writer;
 
+        string message;
+
         public SimpleClient(string hostName, int port)
         {
             this._hostName = hostName;
             this._port = port;
+        }
+
+        public void Write(string input)
+        {
+            Console.WriteLine(input + "\r\n");
+            writer.WriteLine(input + "\r\n");
+            writer.Flush();
+        }
+
+        public void ClientThread()
+        {
+            message = reader.ReadLine();
+            Console.WriteLine(message + " TEST");
+            while (message != "exit")
+            {
+                message = reader.ReadLine();
+                Console.WriteLine(message);
+            }
         }
 
         public void Run()
@@ -37,9 +57,6 @@ namespace SocketClient
             {
                 StartConnection();
 
-                //Thread listener = new Thread(listenToServer);
-                //listener.Start();
-
                 GetID();
 
                 //string serverData = reader.ReadLine();
@@ -49,6 +66,7 @@ namespace SocketClient
                 {
                     string input = Console.ReadLine();
                     writer.WriteLine(_clientID + ": " + input);
+                    writer.Flush();
 
                     string commandResponse = reader.ReadLine();
                     Console.WriteLine(commandResponse);
@@ -93,6 +111,13 @@ namespace SocketClient
             reader = new StreamReader(stream);
             writer = new StreamWriter(stream);
             writer.AutoFlush = true;
+            Thread readThread = new Thread(ClientThread);
+            readThread.Start();
+            string text = ((IPEndPoint)server.Client.LocalEndPoint).Address.ToString() +
+                       " " + ((IPEndPoint)server.Client.LocalEndPoint).Port.ToString();
+            Console.WriteLine(text);
+            writer.WriteLine(text);
+            writer.Flush();
         }
 
         //private void listenToServer()

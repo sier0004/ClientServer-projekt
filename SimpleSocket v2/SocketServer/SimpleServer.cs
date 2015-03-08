@@ -26,6 +26,9 @@ namespace SocketServer
             Console.WriteLine("Server started. IP: " + _ip + " on port " + _port + ".");
 
             TcpListener listener = new TcpListener(this._ip, this. _port);
+
+            List<TcpClient> clients = new List<TcpClient>();
+
             try
             {
                 listener.Start();
@@ -33,10 +36,12 @@ namespace SocketServer
                 while (!_stop)
                 {
                     Console.WriteLine("Waiting...");
-                    Socket clientSocket = listener.AcceptSocket();
-                    Console.WriteLine("Found " + _ip + ".");
+                    //Socket clientSocket = listener.AcceptSocket();
+                    TcpClient client = listener.AcceptTcpClient();
+                    Console.WriteLine("Client found on " + _ip + ".");
+                    clients.Add(client);
 
-                    ClientHandler clientHandler = new ClientHandler(clientSocket);
+                    ClientHandler clientHandler = new ClientHandler(client, clients);
                     Thread clientThread = new Thread(clientHandler.RunServer);
                     //clientThread.IsBackground = true;
                     clientThread.Start();
