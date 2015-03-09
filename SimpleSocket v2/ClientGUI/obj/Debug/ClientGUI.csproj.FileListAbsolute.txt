@@ -33,3 +33,12 @@ C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\o
 C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.csproj.GenerateResource.Cache
 C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.exe
 C:\Users\Shiro\Documents\GitHub\ClientServer-projekt\SimpleSocket v2\ClientGUI\obj\Debug\ChatKlient.pdb
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\bin\Debug\ClientGUI.exe.config
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\bin\Debug\ClientGUI.exe
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\bin\Debug\ClientGUI.pdb
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.Form1.resources
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.Properties.Resources.resources
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.csproj.GenerateResource.Cache
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.exe
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\ClientGUI\obj\Debug\ClientGUI.pdb

@@ -43,3 +43,6 @@ C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketClient\
 C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
 C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe
 C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Shiro\Desktop\v4 master\SimpleSocket v2\SocketClient\obj\Debug\SocketClient.pdb

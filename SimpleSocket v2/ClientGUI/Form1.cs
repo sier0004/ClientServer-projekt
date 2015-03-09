@@ -31,7 +31,6 @@ namespace ClientGUI
             InitializeComponent();
         }
 
-        //public void skriv(object s, EventArgs e)
         public void Write(string s)
         {
             this.textBox1.Text += s + "\r\n";
@@ -60,19 +59,61 @@ namespace ClientGUI
 
         private void StartButton_Click(object sender, EventArgs e)
         {
-            server = new TcpClient("localhost", 11000);
-            netStream = server.GetStream();
-            reader = new StreamReader(netStream);
-            writer = new StreamWriter(netStream);
-            writer.AutoFlush = true;
-            Thread t = new Thread(this.ClientThread);
-            t.Start();
-            GetID();
+            if (_clientID == null)
+            {
+                try
+                {
+                    server = new TcpClient("localhost", 11000);
+                    netStream = server.GetStream();
+                    reader = new StreamReader(netStream);
+                    writer = new StreamWriter(netStream);
+                    writer.AutoFlush = true;
+                    Thread t = new Thread(this.ClientThread);
+                    t.Start();
+                    GetID();
+                    MessageBox.Show("Connected with ID: " + _clientID + ".");
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Could not connect with server.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Already connected!");
+            }       
         }
 
         private void SendButton_Click(object sender, EventArgs e)
         {
-            writer.WriteLine(_clientID + ": " + textBox2.Text);
+            if (textBox2.Text == "clear")
+            {
+                textBox2.Clear();
+                textBox1.Clear();
+            }
+            else if (textBox2.Text == "exit")
+            {
+                writer.Close();
+                reader.Close();
+                netStream.Close();
+                server.Close();
+                MessageBox.Show("Disconnected");
+            }
+            else
+            {
+                writer.WriteLine(_clientID + ": " + textBox2.Text);
+                textBox2.Clear();
+            }
+
+        }
+
+        private void StopButton_Click(object sender, EventArgs e)
+        {
+            writer.Close();
+            reader.Close();
+            netStream.Close();
+            server.Close();
+            MessageBox.Show("Closed connection.");
         }
     }
 }
