@@ -8,8 +8,8 @@
     <ProjectGuid>{CD617364-62D7-4921-9973-3A49710439B5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChatKlient</RootNamespace>
-    <AssemblyName>ChatKlient</AssemblyName>
+    <RootNamespace>ClientGUI</RootNamespace>
+    <AssemblyName>ClientGUI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

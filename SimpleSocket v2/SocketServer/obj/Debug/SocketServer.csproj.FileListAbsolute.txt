@@ -45,3 +45,6 @@ C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\
 C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.exe
 C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\bin\Debug\SocketServer.pdb
 C:\Users\Shiro\Desktop\ClientServer-projekt-master\SimpleSocket v2\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+C:\Users\Shiro\Downloads\Version 3\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\Shiro\Downloads\Version 3\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\Shiro\Downloads\Version 3\SocketServer\obj\Debug\SocketServer.pdb
