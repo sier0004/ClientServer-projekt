@@ -1,5 +1,0 @@
-c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SumServer\bin\Debug\SumServer.exe.config
-c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SumServer\bin\Debug\SumServer.exe
-c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SumServer\bin\Debug\SumServer.pdb
-c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SumServer\obj\Debug\SumServer.exe
-c:\users\si\documents\visual studio 2013\Projects\SimpleSocket\SumServer\obj\Debug\SumServer.pdb
